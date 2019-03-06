@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @opu.title %>
+</p>
+
+<p>
+  <strong>Designer:</strong>
+  <%= @opu.designer %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @opu.year %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @opu.image_url %>
+</p>
+
+<%= link_to 'Edit', edit_opu_path(@opu) %> |
+<%= link_to 'Back', opus_path %>
